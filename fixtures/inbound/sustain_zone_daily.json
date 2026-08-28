@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-08-15",
+    "zone": "Floor 1",
+    "kwh": 0,
+    "water_m3": 6.0
+  },
+  {
+    "date": "2026-08-15",
+    "zone": "Floor 2",
+    "kwh": 0,
+    "water_m3": 7.5
+  },
+  {
+    "date": "2026-08-15",
+    "zone": "Floor 3",
+    "kwh": 0,
+    "water_m3": 87.9
+  }
+]

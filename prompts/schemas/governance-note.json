@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note"],
+  "properties": {
+    "note": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600,
+      "description": "2-3 sentence plain-prose governance note, no headers or bullets"
+    }
+  }
+}

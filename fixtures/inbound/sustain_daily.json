@@ -1,0 +1,722 @@
+[
+  {
+    "date": "2026-06-01",
+    "kwh": 274.6,
+    "water_m3": 33.3,
+    "waste_kg": 117.0,
+    "laundry_kg": 53.3,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-02",
+    "kwh": 285.7,
+    "water_m3": 34.7,
+    "waste_kg": 121.4,
+    "laundry_kg": 55.3,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-03",
+    "kwh": 296.8,
+    "water_m3": 36.2,
+    "waste_kg": 125.8,
+    "laundry_kg": 57.3,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-04",
+    "kwh": 276.1,
+    "water_m3": 33.8,
+    "waste_kg": 116.8,
+    "laundry_kg": 53.1,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-05",
+    "kwh": 329.8,
+    "water_m3": 39.7,
+    "waste_kg": 139.1,
+    "laundry_kg": 63.3,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-06-06",
+    "kwh": 337.9,
+    "water_m3": 41.2,
+    "waste_kg": 143.5,
+    "laundry_kg": 65.3,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-06-07",
+    "kwh": 275.1,
+    "water_m3": 33.6,
+    "waste_kg": 116.5,
+    "laundry_kg": 53.0,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-08",
+    "kwh": 286.2,
+    "water_m3": 35.1,
+    "waste_kg": 120.9,
+    "laundry_kg": 55.0,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-09",
+    "kwh": 297.4,
+    "water_m3": 35.8,
+    "waste_kg": 125.3,
+    "laundry_kg": 57.0,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-10",
+    "kwh": 276.6,
+    "water_m3": 33.5,
+    "waste_kg": 116.3,
+    "laundry_kg": 52.8,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-11",
+    "kwh": 285.1,
+    "water_m3": 34.9,
+    "waste_kg": 120.7,
+    "laundry_kg": 54.8,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-12",
+    "kwh": 338.6,
+    "water_m3": 41.6,
+    "waste_kg": 142.9,
+    "laundry_kg": 64.9,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-06-13",
+    "kwh": 318.0,
+    "water_m3": 38.4,
+    "waste_kg": 133.9,
+    "laundry_kg": 60.8,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-06-14",
+    "kwh": 286.7,
+    "water_m3": 34.7,
+    "waste_kg": 120.4,
+    "laundry_kg": 54.6,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-15",
+    "kwh": 297.9,
+    "water_m3": 36.2,
+    "waste_kg": 124.8,
+    "laundry_kg": 56.6,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-16",
+    "kwh": 274.6,
+    "water_m3": 33.8,
+    "waste_kg": 115.8,
+    "laundry_kg": 52.5,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-17",
+    "kwh": 285.7,
+    "water_m3": 34.6,
+    "waste_kg": 120.2,
+    "laundry_kg": 54.5,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-18",
+    "kwh": 296.8,
+    "water_m3": 36.0,
+    "waste_kg": 124.6,
+    "laundry_kg": 56.4,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-19",
+    "kwh": 318.6,
+    "water_m3": 38.8,
+    "waste_kg": 133.4,
+    "laundry_kg": 60.4,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-06-20",
+    "kwh": 329.8,
+    "water_m3": 40.3,
+    "waste_kg": 137.7,
+    "laundry_kg": 62.4,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-06-21",
+    "kwh": 295.7,
+    "water_m3": 35.8,
+    "waste_kg": 124.3,
+    "laundry_kg": 56.3,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-22",
+    "kwh": 275.1,
+    "water_m3": 33.5,
+    "waste_kg": 115.4,
+    "laundry_kg": 52.2,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-23",
+    "kwh": 286.2,
+    "water_m3": 34.9,
+    "waste_kg": 119.7,
+    "laundry_kg": 54.2,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-24",
+    "kwh": 297.4,
+    "water_m3": 36.4,
+    "waste_kg": 124.1,
+    "laundry_kg": 56.1,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-06-25",
+    "kwh": 276.6,
+    "water_m3": 33.3,
+    "waste_kg": 115.1,
+    "laundry_kg": 52.1,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-26",
+    "kwh": 327.4,
+    "water_m3": 39.9,
+    "waste_kg": 137.2,
+    "laundry_kg": 62.0,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-06-27",
+    "kwh": 338.6,
+    "water_m3": 41.4,
+    "waste_kg": 141.5,
+    "laundry_kg": 63.9,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-06-28",
+    "kwh": 275.6,
+    "water_m3": 33.8,
+    "waste_kg": 114.9,
+    "laundry_kg": 51.9,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-06-29",
+    "kwh": 286.7,
+    "water_m3": 34.6,
+    "waste_kg": 119.2,
+    "laundry_kg": 53.8,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-06-30",
+    "kwh": 297.9,
+    "water_m3": 36.0,
+    "waste_kg": 123.6,
+    "laundry_kg": 55.8,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-01",
+    "kwh": 261.6,
+    "water_m3": 33.6,
+    "waste_kg": 114.7,
+    "laundry_kg": 51.7,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-02",
+    "kwh": 272.2,
+    "water_m3": 35.1,
+    "waste_kg": 119.0,
+    "laundry_kg": 53.7,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-03",
+    "kwh": 323.2,
+    "water_m3": 41.0,
+    "waste_kg": 140.9,
+    "laundry_kg": 63.6,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-07-04",
+    "kwh": 303.6,
+    "water_m3": 38.6,
+    "waste_kg": 132.0,
+    "laundry_kg": 59.5,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-07-05",
+    "kwh": 273.8,
+    "water_m3": 34.9,
+    "waste_kg": 118.7,
+    "laundry_kg": 53.5,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-06",
+    "kwh": 281.7,
+    "water_m3": 36.4,
+    "waste_kg": 123.1,
+    "laundry_kg": 55.4,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-07",
+    "kwh": 262.1,
+    "water_m3": 33.3,
+    "waste_kg": 114.2,
+    "laundry_kg": 51.4,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-08",
+    "kwh": 272.7,
+    "water_m3": 34.7,
+    "waste_kg": 118.5,
+    "laundry_kg": 53.4,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-09",
+    "kwh": 283.4,
+    "water_m3": 36.2,
+    "waste_kg": 122.8,
+    "laundry_kg": 55.3,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-10",
+    "kwh": 304.2,
+    "water_m3": 39.0,
+    "waste_kg": 131.5,
+    "laundry_kg": 59.2,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-07-11",
+    "kwh": 311.9,
+    "water_m3": 39.7,
+    "waste_kg": 135.8,
+    "laundry_kg": 61.1,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-07-12",
+    "kwh": 282.2,
+    "water_m3": 36.0,
+    "waste_kg": 122.6,
+    "laundry_kg": 55.1,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-13",
+    "kwh": 262.6,
+    "water_m3": 33.6,
+    "waste_kg": 113.7,
+    "laundry_kg": 51.1,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-14",
+    "kwh": 273.2,
+    "water_m3": 35.1,
+    "waste_kg": 118.0,
+    "laundry_kg": 53.0,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-15",
+    "kwh": 283.9,
+    "water_m3": 35.8,
+    "waste_kg": 122.3,
+    "laundry_kg": 54.9,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-16",
+    "kwh": 261.6,
+    "water_m3": 33.5,
+    "waste_kg": 113.5,
+    "laundry_kg": 51.0,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-17",
+    "kwh": 312.5,
+    "water_m3": 40.1,
+    "waste_kg": 135.2,
+    "laundry_kg": 60.7,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-07-18",
+    "kwh": 323.2,
+    "water_m3": 41.6,
+    "waste_kg": 139.5,
+    "laundry_kg": 62.6,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-07-19",
+    "kwh": 263.1,
+    "water_m3": 33.3,
+    "waste_kg": 113.3,
+    "laundry_kg": 50.8,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-20",
+    "kwh": 273.8,
+    "water_m3": 34.7,
+    "waste_kg": 117.5,
+    "laundry_kg": 52.7,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-21",
+    "kwh": 281.7,
+    "water_m3": 36.2,
+    "waste_kg": 121.8,
+    "laundry_kg": 54.6,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-22",
+    "kwh": 262.1,
+    "water_m3": 33.8,
+    "waste_kg": 113.0,
+    "laundry_kg": 50.6,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-23",
+    "kwh": 272.7,
+    "water_m3": 34.6,
+    "waste_kg": 117.3,
+    "laundry_kg": 52.5,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-24",
+    "kwh": 323.8,
+    "water_m3": 41.2,
+    "waste_kg": 138.9,
+    "laundry_kg": 62.2,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-07-25",
+    "kwh": 304.2,
+    "water_m3": 38.8,
+    "waste_kg": 130.1,
+    "laundry_kg": 58.3,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-07-26",
+    "kwh": 271.6,
+    "water_m3": 35.1,
+    "waste_kg": 117.0,
+    "laundry_kg": 52.4,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-27",
+    "kwh": 282.2,
+    "water_m3": 35.8,
+    "waste_kg": 121.3,
+    "laundry_kg": 54.3,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-28",
+    "kwh": 262.6,
+    "water_m3": 33.5,
+    "waste_kg": 112.6,
+    "laundry_kg": 50.3,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-07-29",
+    "kwh": 273.2,
+    "water_m3": 34.9,
+    "waste_kg": 116.8,
+    "laundry_kg": 52.2,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-07-30",
+    "kwh": 283.9,
+    "water_m3": 36.4,
+    "waste_kg": 121.0,
+    "laundry_kg": 54.1,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-07-31",
+    "kwh": 277.8,
+    "water_m3": 38.4,
+    "waste_kg": 129.6,
+    "laundry_kg": 57.9,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-08-01",
+    "kwh": 287.7,
+    "water_m3": 39.9,
+    "waste_kg": 133.8,
+    "laundry_kg": 59.8,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-08-02",
+    "kwh": 260.4,
+    "water_m3": 36.2,
+    "waste_kg": 120.8,
+    "laundry_kg": 53.9,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-03",
+    "kwh": 242.3,
+    "water_m3": 33.8,
+    "waste_kg": 112.1,
+    "laundry_kg": 50.0,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-04",
+    "kwh": 252.2,
+    "water_m3": 34.6,
+    "waste_kg": 116.3,
+    "laundry_kg": 51.9,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-05",
+    "kwh": 259.3,
+    "water_m3": 36.0,
+    "waste_kg": 120.5,
+    "laundry_kg": 53.8,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-06",
+    "kwh": 241.3,
+    "water_m3": 33.6,
+    "waste_kg": 111.9,
+    "laundry_kg": 49.9,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-07",
+    "kwh": 288.3,
+    "water_m3": 40.3,
+    "waste_kg": 133.3,
+    "laundry_kg": 59.4,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-08-08",
+    "kwh": 298.2,
+    "water_m3": 41.0,
+    "waste_kg": 137.5,
+    "laundry_kg": 61.2,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-08-09",
+    "kwh": 242.8,
+    "water_m3": 33.5,
+    "waste_kg": 111.6,
+    "laundry_kg": 49.7,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-10",
+    "kwh": 250.0,
+    "water_m3": 34.9,
+    "waste_kg": 115.8,
+    "laundry_kg": 51.6,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-11",
+    "kwh": 259.8,
+    "water_m3": 36.4,
+    "waste_kg": 120.0,
+    "laundry_kg": 53.4,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-12",
+    "kwh": 241.8,
+    "water_m3": 33.3,
+    "waste_kg": 111.4,
+    "laundry_kg": 49.6,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-13",
+    "kwh": 251.6,
+    "water_m3": 34.7,
+    "waste_kg": 115.6,
+    "laundry_kg": 51.4,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-14",
+    "kwh": 298.9,
+    "water_m3": 41.4,
+    "waste_kg": 136.9,
+    "laundry_kg": 60.9,
+    "occupied_rooms": 32
+  },
+  {
+    "date": "2026-08-15",
+    "kwh": 277.8,
+    "water_m3": 101.4,
+    "waste_kg": 128.2,
+    "laundry_kg": 57.0,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-08-16",
+    "kwh": 250.6,
+    "water_m3": 34.6,
+    "waste_kg": 115.3,
+    "laundry_kg": 51.2,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-17",
+    "kwh": 260.4,
+    "water_m3": 36.0,
+    "waste_kg": 119.5,
+    "laundry_kg": 53.1,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-18",
+    "kwh": 242.3,
+    "water_m3": 33.6,
+    "waste_kg": 110.9,
+    "laundry_kg": 49.2,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-19",
+    "kwh": 252.2,
+    "water_m3": 35.1,
+    "waste_kg": 115.1,
+    "laundry_kg": 51.1,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-20",
+    "kwh": 259.3,
+    "water_m3": 35.8,
+    "waste_kg": 119.3,
+    "laundry_kg": 52.9,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-21",
+    "kwh": 278.4,
+    "water_m3": 38.6,
+    "waste_kg": 127.7,
+    "laundry_kg": 56.6,
+    "occupied_rooms": 30
+  },
+  {
+    "date": "2026-08-22",
+    "kwh": 288.3,
+    "water_m3": 40.1,
+    "waste_kg": 131.9,
+    "laundry_kg": 58.5,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-08-23",
+    "kwh": 261.0,
+    "water_m3": 36.4,
+    "waste_kg": 119.0,
+    "laundry_kg": 52.8,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-24",
+    "kwh": 242.8,
+    "water_m3": 33.3,
+    "waste_kg": 110.4,
+    "laundry_kg": 48.9,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-25",
+    "kwh": 250.0,
+    "water_m3": 34.7,
+    "waste_kg": 114.6,
+    "laundry_kg": 50.8,
+    "occupied_rooms": 27
+  },
+  {
+    "date": "2026-08-26",
+    "kwh": 259.8,
+    "water_m3": 36.2,
+    "waste_kg": 118.8,
+    "laundry_kg": 52.6,
+    "occupied_rooms": 28
+  },
+  {
+    "date": "2026-08-27",
+    "kwh": 241.8,
+    "water_m3": 33.8,
+    "waste_kg": 110.2,
+    "laundry_kg": 48.8,
+    "occupied_rooms": 26
+  },
+  {
+    "date": "2026-08-28",
+    "kwh": 288.9,
+    "water_m3": 39.7,
+    "waste_kg": 131.3,
+    "laundry_kg": 58.1,
+    "occupied_rooms": 31
+  },
+  {
+    "date": "2026-08-29",
+    "kwh": 298.9,
+    "water_m3": 41.2,
+    "waste_kg": 135.5,
+    "laundry_kg": 59.9,
+    "occupied_rooms": 32
+  }
+]

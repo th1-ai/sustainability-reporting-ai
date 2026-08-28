@@ -1,0 +1,90 @@
+# ---------------------------------------------------------------------------
+# agent.yaml - Sustainability Reporting AI's own knobs, on top of config/hotel.yaml.
+#
+# `make setup` copies this to config/agent.yaml. Edit that one.
+# ---------------------------------------------------------------------------
+
+# No sub-agents fold into this repo - see docs/sub-agents.md for why a
+# per-zone breakdown is a data source (sustain_zone_daily), not a sub-agent.
+
+# --- Which systems this agent actually reads/writes through core/adapters --
+# The meter/occupancy data itself comes from data/imports/*.csv, not from
+# here - this is only about core/adapters (email, messaging, sheets, pms).
+# This agent emails the report (email), notifies engineering of a flagged
+# anomaly (messaging), and writes the consumption dashboard export (sheets).
+# It never calls the PMS - occupied_rooms comes from the CSV column, see
+# the "PMS" section of docs/integrations.md - so pms is left out here on
+# purpose: systems.pms.adapter stays mock forever and must never trigger
+# the "SAMPLE DATA" warning below. Listing email/messaging still warns you
+# correctly if THOSE are left on mock once you are running for real.
+systems_used: [email, messaging, sheets]
+
+# --- Tariffs: your property's own prices, not hard-coded ------------------
+# Every euro figure in the report is priced from these. Put your own numbers
+# in from your utility invoices - see docs/how-it-works.md "Design decisions" #5.
+tariffs:
+  elec_per_kwh: 0.18
+  water_per_m3: 3.60
+  waste_per_kg: 0.19
+  laundry_per_kg: 0.85
+  # Location-based Scope 2 grid factor, kgCO2e per kWh. The default is a
+  # rough EU-wide average - replace it with your own grid operator's
+  # published figure. Used only for the labeled "Estimated emissions"
+  # section, never mixed into the metered consumption figures.
+  grid_kgco2_per_kwh: 0.233
+
+# --- Monthly ESG Report -----------------------------------------------------
+report:
+  recipients: []              # emails that get the monthly report; falls back
+                               # to contacts.manager.email in hotel.yaml
+  min_history_days: 30        # below this the report refuses and tells you why
+  water_target_cut: 0.06      # realistic % cut a linen-reuse + aerator push gets you
+  laundry_target_cut: 0.05    # realistic % cut from a laundry efficiency push
+  waste_benchmark_per_room_kg: 4.0   # group benchmark used when no anomaly fired
+
+# --- Anomaly detection (esg-anomaly rule) -----------------------------------
+# A day is flagged when its per-occupied-room reading exceeds
+# mean + escalate_sigma * (population standard deviation) across the 90-day
+# window - see docs/how-it-works.md "Design decisions" #3. Runs once for
+# electricity and once for water.
+anomaly:
+  flag_sigma: 2
+  escalate_sigma: 3
+  rules:
+    esg-anomaly: true         # off = anomaly scan skipped entirely, report says so
+
+# What needs a human before it leaves the building.
+review:
+  require_approval_for:
+    - send_email
+    - send_message
+    - pms_write
+    - payment
+    - publish
+  auto_approve_after_days: null
+  digest_hour: 8
+
+# How the report and the engineering alert are allowed to leave once mode is
+# live. draft: always queue for a human. send: send automatically when
+# nothing gated it. Off by default everywhere.
+autonomy:
+  esg_report: draft
+  engineering_alert: draft
+
+llm:
+  # Overrides hotel.yaml's llm: block for this agent only. The only call made
+  # is the governance note (prompts/governance-note.md) - cosmetic, never
+  # gates a decision, and the run completes even if this call fails. Skipped
+  # entirely (not paused) on `interactive` - see docs/how-it-works.md.
+  provider: interactive
+  effort: low
+
+# The one recurring job this agent has. `make schedule` prints its snippet;
+# `make schedule ARGS="--all"` does the same for every entry (there is one) -
+# see scheduler/crontab.example for exactly what that command produces.
+schedule:
+  esg_report:
+    cadence: monthly
+    command: "tools/run.py --once --report"
+
+poll_seconds: 86400   # only used by `make watch` - monthly reporting is slow
